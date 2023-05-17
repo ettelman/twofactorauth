@@ -263,7 +263,7 @@ app.post("/freja", async (req, res) => {
     } else {
       res.status(401).json({ error: result});
     }
-    console.log("*** ", result);
+   
   });
 
 
