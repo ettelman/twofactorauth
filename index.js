@@ -1,6 +1,7 @@
 // Two-factor authentication with Node.js, Express, MongoDB and Speakeasy
 // Freja Eid login made with Eid
 // Made by: Björn Ettelman
+//
 
 // setup for npm packages
 const express = require("express");
