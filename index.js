@@ -263,6 +263,7 @@ app.post("/freja", async (req, res) => {
       res.cookie("token", token, { httpOnly: true }).json({ status: "success", user: result });
     } else {
       res.status(401).json({ error: result});
+    
     }
    
   });
